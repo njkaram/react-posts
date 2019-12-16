@@ -1,0 +1,17 @@
+{
+  "name": "posts-server",
+  "version": "1.0.0",
+  "description": "Server to retrieve post details",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Niranjan Karam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "requestify": "^0.2.5"
+  }
+}

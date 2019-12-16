@@ -1,0 +1,97 @@
+@import "sass/variables.scss";
+
+.App {
+  font-family: sans-serif;
+  width: 90%;
+  margin: auto;
+
+  h1,
+  h2 {
+    font-size: 20px;
+    position: relative;
+    color: $primaryColor;
+  }
+
+  .posts-container {
+    div {
+      padding: 0;
+    }
+    .note {
+      font-size: 12px;
+      color: darkgrey;
+    }
+    .post {
+      width: 490px;
+      float: left;
+      display: block;
+      margin: 5px;
+      border: 1px solid lightslategray;
+      h4 {
+        margin: 0;
+        background-color: $titleColor;
+        height: 40px;
+        padding: 5px;
+        color: $primaryColor;
+      }
+      p {
+        margin: 0;
+        height: 80px;
+        padding: 5px;
+        color: $primaryColor;
+      }
+    }
+  }
+  .post-form-container {
+    width: 100%;
+    display: block;
+    label {
+      width: 100px;
+      display: inline-block;
+      padding-right: 10px;
+      text-align: right;
+      vertical-align: top;
+    }
+    .title {
+      height: 35px;
+    }
+    textarea {
+      width: 500px;
+      border: 1px solid lightslategray;
+      padding-left: 5px;
+      font-size: 14px;
+      height: 50px;
+    }
+    button {
+      background-color: $titleColor;
+      font-size: 16px;
+      color: $primaryColor;
+      margin-left: 300px;
+      padding: 5px 20px;
+      margin-top: 10px;
+      border: 1px solid lightslategray;
+    }
+    .errors {
+      margin-top: -5px;
+      span {
+        color: #f74646;
+        font-size: 12px;
+        margin-left: 110px;
+        margin-top: -5px;
+      }
+    }
+  }
+  .post-search-container {
+    padding: 20px 0;
+    width: 50%;
+    display: inline-block;
+    div {
+      width: 100%;
+      input {
+        border: 1px solid lightslategray;
+        width: 100%;
+        padding-left: 5px;
+        font-size: 18px;
+      }
+    }
+  }
+}
