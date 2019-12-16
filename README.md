@@ -1,4 +1,6 @@
-# Fetch node modules
+# REACT-REDUX: Search and Edit Posts
+
+## Fetch node modules
 
 run Yarn to fetch the node modules:
 
@@ -10,15 +12,13 @@ yarn
 
 cd server && yarn
 
-# NODE Server
+## NODE Server Start
 
 Open a terminal and run the following commands:
 cd server &&
 yarn start
 
-# REACT: Search and Edit Posts
-
-## Available Scripts
+## React Server Start
 
 In the project directory, you can run:
 
