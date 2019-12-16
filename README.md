@@ -14,13 +14,13 @@ cd server && yarn
 
 ## NODE Server Start
 
-Open a terminal and run the following commands:
+Open a terminal and run the following command:
 cd server &&
 yarn start
 
 ## React Server Start
 
-In the project directory, you can run:
+In the project directory
 
 Open a terminal and run:
 yarn start
